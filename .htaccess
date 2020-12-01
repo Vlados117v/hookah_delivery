@@ -1,0 +1,5 @@
+ErrorDocument 404 /errors/404.php
+#403 Доступ запрещен
+ErrorDocument 403 /errors/403.php
+#500 Внутренняя ошибка сервера
+ErrorDocument 500 /errors/500.php

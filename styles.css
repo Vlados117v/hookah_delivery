@@ -1,0 +1,700 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Gabriela; /* Имя шрифта */
+    src: url(fonts/Gabriela-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+body {
+	background-image: url(images/background.jpg);
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 30px !important;
+}
+.main_content {
+	width: 90%;
+	margin: 0 auto;
+	/*background-color: rgb(100%, 100%, 100%, 0.4);*/
+}
+
+
+.info {
+	min-height: 800px;
+	width:100%;
+/*	background-color: rgb(0%, 0%, 0%, 0.5);*/
+}
+
+.info .about_content {
+	width: 48%;
+	padding: 30px;
+
+}
+
+
+
+.about_content p{
+	font-size: 18px;
+	font-family: Gabriela;
+
+	margin-bottom: 50px;
+}
+.about_content h2 {
+	font-size: 18px;
+	font-family: Gabriela;
+
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+.text_center {
+	text-align: center;
+}
+
+.about_list{
+	font-size: 18px;
+	font-family: Gabriela;
+
+}
+
+.about_list li{
+	font-size: 18px;
+	font-family: Gabriela;
+
+	list-style: disc;
+	margin-top: 5px;
+}
+
+.pluses {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+
+
+.info .about_image {
+	width: 48%;
+	float: right;
+
+}
+
+.about_image img{
+margin-left: 60px;
+padding: 0 10px;
+border-radius: 15px;
+
+}
+
+.info .about_delivery {
+	margin:50px auto;
+
+	padding-right: 30px;
+	display: block;
+	max-width: 50%;
+
+}
+
+.delivery {
+	margin-top: 60px;
+}
+.about_delivery_image {
+	max-width: 45%;
+	min-height: 500px;
+	border-radius: 100px;
+	margin-right: 30px;
+} 
+
+.about_delivery_image img{
+	border-radius: 15px;
+	display: block;
+	max-width:100%;
+	max-height: 100%;
+} 
+
+.about_delivery h2{
+	font-size: 25px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: white;
+
+}
+
+.red_rib {
+	background-image: url(images/h2.png);
+	padding: 10px 35px;
+	background-size: 100% 100%;
+	color: white;
+}
+
+
+.about_delivery li{
+list-style: none;
+}
+
+
+.star {
+	font-size: 15px;
+	font-family: Gabriela;
+}
+
+.flavor .star {
+	font-size: 15px;
+	font-family: Gabriela;
+	margin-top: 15px;
+}
+
+
+
+
+.phone_number {
+	margin-top: 100px;
+	font-size: 30px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+
+.phone_number h3{
+	font-weight: normal;
+}
+
+.phone_number2 {
+	margin-top: 20px;
+	font-size: 40px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+}
+.phone_number2 input{
+	width: 300px;
+	height: 40px;
+	text-align-last: center;
+	border-radius: 5px;
+	cursor: pointer;
+	border-width: 2px;
+	margin-top: -20px;
+	font-size: 15px;
+	font-family: Gabriela;
+}
+
+.phone_number2 input:hover{
+	color: #74B8DB;
+	border-color: #74B8DB;
+}
+
+.phone_number input{
+	width: 300px;
+	height: 40px;
+	text-align-last: center;
+	border-radius: 5px;
+	cursor: pointer;
+	border-width: 2px;
+	font-size: 15px;
+	font-family: Gabriela;
+}
+
+.phone_number input:active {
+	color: #74B8DB;
+	border-color: #74B8DB;
+}
+.phone_number input:hover{
+	color: #74B8DB;
+	border-color: #74B8DB;
+}
+
+.phone_number button{
+	width: 300px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 10px;
+	background: linear-gradient(0deg, rgba(214,154,42,1) 0%, rgba(166,128,58,1) 40%, rgba(173,132,56,1) 60%, rgba(214,154,42,1) 100%);
+	border:none;
+	font-size: 15px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+	color: white;
+}
+
+.phone_number button:hover{
+	color: #74B8DB;
+	border-color: #74B8DB;
+}
+
+.phone_number form{
+
+}
+
+
+.or {
+	margin:50px 0;
+	font-size: 30px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+}
+
+.or2 {
+	margin:50px 0;
+	font-size: 35px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+}
+
+
+
+
+.header img{
+	margin-top: 20px;
+	margin-bottom: 60px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+	width: 100%;
+	height: 100vh;
+	max-height: 780px;
+
+}
+
+.header h1 {
+	font-size: 40px;
+
+	text-align: center;
+	padding-top: 30px;
+	height: 100%;
+	font-family: Gabriela;
+	text-transform: uppercase;
+}
+
+.content {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.constructor_head {
+	font-size: 30px;
+	margin-top: 50px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+}
+
+.constructor {
+	width: 100%;
+
+	margin-top: 50px;
+}
+
+.form .tobacco {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: Gabriela;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+
+.new_bowls .tobacco {
+		margin-top: 30px;
+}
+
+.new_bowls .color p {
+	margin-top: 30px;
+}
+
+.new_bowls .color {
+	margin-bottom: 150px;
+}
+
+.color_new_bowls{
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+.color_new_bowls p{
+	font-size: 30px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+}
+
+.flavor .new_bowls {
+	margin-top: 20px;
+}
+
+#bowl_1 {
+	margin-top: 100px;
+}
+
+.tobacco label{
+	margin-left: 50px;
+}
+
+.flavor {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.flavor p{
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+}
+
+.flavor select {
+	width: 400px;
+	height: 30px;
+	text-align-last: center;
+	border-radius: 5px;
+	cursor: pointer;
+	border-width: 2px;
+}
+
+.flavor select:active {
+	color: #74B8DB;
+	border-color: #74B8DB;
+}
+.flavor select:hover {
+	color: #74B8DB;
+	border-color: #74B8DB;
+}
+
+.fruit_image {
+		width: 100%;
+		margin-top: 15px;
+}
+
+.color {
+
+		width: 100%;
+		padding-bottom: 20px;
+		padding-top: 30px;
+}
+.color img {
+	padding-top: 30px;
+}
+
+.color label {
+
+	font-size: 30px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+}
+.color p{
+	font-size: 30px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+}
+
+.color input {
+	opacity: 0;
+}
+
+.checked:checked ~ .checked_img{
+	opacity: 0.5;
+}
+.checked{
+	display: none;
+}
+#one:checked ~ .one {
+  opacity: 0.5;
+}
+#two:checked ~ .two {
+  opacity: 0.5;
+}
+
+#three:checked ~ .three {
+  opacity: 0.5;
+}
+
+#four:checked ~ .four {
+  opacity: 0.5;
+}
+
+#five:checked ~ .five {
+  opacity: 0.5;
+}
+
+#six:checked ~ .six {
+  opacity: 0.5;
+}
+
+#one1:checked ~ .one1 {
+  opacity: 0.5;
+}
+#two2:checked ~ .one2 {
+  opacity: 0.5;
+}
+
+#three3:checked ~ .one3 {
+  opacity: 0.5;
+}
+
+#four4:checked ~ .one4 {
+  opacity: 0.5;
+}
+
+#five5:checked ~ .one5 {
+  opacity: 0.5;
+}
+
+#six6:checked ~ .one6 {
+  opacity: 0.5;
+}
+
+#seven7:checked ~ .seven7 {
+  opacity: 0.5;
+}
+
+#one11:checked ~ .one1 {
+  opacity: 0.5;
+}
+#two22:checked ~ .one2 {
+  opacity: 0.5;
+}
+
+#three33:checked ~ .one3 {
+  opacity: 0.5;
+}
+
+.form button {
+	width: 400px;
+	height: 70px;
+	font-size: 30px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+	background: linear-gradient(0deg, rgba(214,154,42,1) 0%, rgba(166,128,58,1) 40%, rgba(173,132,56,1) 60%, rgba(214,154,42,1) 100%);
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 5px;
+	border:1px solid #A6803A;
+	color: white;
+
+}
+
+
+.form button:hover{
+	color: #74B8DB;
+}
+
+#message {
+	color:red;
+	margin-top: -20px;
+}
+
+#message2 {
+	color:red;
+}
+
+
+
+
+
+
+
+.footer {
+	width: 100%;
+	height:200px;
+	background-color: rgb(0%, 0%, 0%, 0.5);
+	margin-top: 30px;
+
+}
+
+.mode {
+	float: left;
+	padding: 50px 30px;
+}
+
+.mode p{
+	font-size: 15px;
+	font-family: Gabriela;
+	color: white;
+line-height: 2;
+}
+
+.social {
+	float: left;
+	padding: 55px 30px;
+}
+
+.social p {
+	font-size: 15px;
+	font-family: Gabriela;
+	color: white;
+}
+.social ul li{
+	list-style: none;
+	float: left;
+}
+
+.footer_phone {
+	font-size: 15px;
+	font-family: Gabriela;
+	color: white;
+	padding: 55px 30px;
+}
+
+.footer_phone ul li{
+	list-style: none;
+	padding-bottom: 7px;
+}
+
+.questions {
+	float: right;
+	font-size: 15px;
+	font-family: Gabriela;
+	color: white;
+	padding-top: 55px;
+	padding-right: 30px;
+
+}
+
+.questions ul li{
+	list-style: none;
+	padding-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.win-warning-content {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: scroll;
+    padding: 20px;
+    z-index: 200;
+}
+.cover-warning {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+    z-index: 100;
+}
+.container-modal-warning {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 40px;
+    background: #fff;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+#b_yes, #b_no {
+    padding: 10px 20px;
+    font-size: 15px;
+	font-family: Gabriela;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;#B38638
+}
+
+#b_no:hover {
+    background: #B38638;
+}
+#b_yes:hover {
+    background: #B38638;
+}
+
+#b_yes {
+    background: #B39966;
+    color:#fff;
+
+
+}
+#b_no {
+    background: #B39966;
+    color:#fff;
+}
+.text-warning {
+    margin-top:20px;
+    color:red;
+}
+
+.win-warning-content p{
+	font-size: 35px;
+	font-family: Gabriela;
+}
+
+.win-warning-content p .age_size {
+	font-size: 25px;
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.red {
+	background-image: url(images/h2.png);
+	padding: 10px 20px;
+	background-size: 100% 100%;
+	color: white;
+	width: 500px;
+	margin: 0 auto;
+}
+.widther {
+	width: 600px;
+}
+
+.color .checked_img {
+	margin: 0 10px;
+}
